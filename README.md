@@ -31,6 +31,18 @@
 ### BIOS
 
 ```
+请用这个
+CPU Configuration, CPU C states Support, Enabled,
+CPU Configuration, CPU C states Support, CFG Lock Disabled (必须）
+Chipset Configuration, Vt-d, Disabled,
+Chipset Configuration, Onboard HD Audio: Enabled,
+USB Configuration, XHCI Hand-off, Enabled  （关键）
+Super IO Configuration, Serial Port, Disabled（必须）
+Security Secure Boot, Disabled(by default)
+Boot, CSM, 默认就行 不要设置
+个人BIOS版本在3.x
+
+下方的配置完会无法启动
 
 Advanced
   |-- CPU Configuration
